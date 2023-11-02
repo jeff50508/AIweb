@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  background-color: #354649;
+  margin: 0;
+  border: 0;
+  margin: 0 auto;
+  color: #e0e7e9;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+  margin-bottom: 24px;
+}
+.text-color-1 {
+  color: #354649;
+}
+.text-color-2 {
+  color: #6c7a89;
+}
+.text-color-3 {
+  color: #a3c6c4;
+}
+.text-color-4 {
+  color: #e0e7e9;
+}
+.bg-color-1 {
+  background-color: #354649;
+}
+.bg-color-2 {
+  background-color: #6c7a89;
+}
+.bg-color-3 {
+  background-color: #a3c6c4;
+}
+.bg-color-4 {
+  background-color: #e0e7e9;
+}
+.headerWrapper {
+  width: 100%;
+}
+
+.mainPhoto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.p-galleria-item-container {
+  background-color: white !important;
+}
+.p-card-header {
+  padding-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+.p-card {
+  box-shadow: none;
+  border-color:#e0e7e9;
+  border-width: 4px;
+}
